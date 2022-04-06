@@ -1,0 +1,10 @@
+**/.vs/*
+**/.idea/*
+**/bin/*
+**/obj/*
+**/*.user
+**/.vscode/*
+**/.history/*
+**/.env
+**/*.access_token
+**/*_access_token

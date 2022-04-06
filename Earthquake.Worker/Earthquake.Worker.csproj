@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-Earthquake.Worker-C0C4C897-DCAB-4975-B221-D62878BE39A7</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MediatR" Version="10.0.1" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="MongoDB.Driver" Version="2.15.0" />
+        <PackageReference Include="TweetinviAPI" Version="5.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Earthquake.BusinessLayer\Earthquake.BusinessLayer.csproj" />
+    </ItemGroup>
+</Project>
